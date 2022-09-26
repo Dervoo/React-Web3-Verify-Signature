@@ -1,15 +1,15 @@
 Commands:
-npx hardhat block-number --network Rinkeby
-npx hardhat deploy
-npx hardhat deploy --tags mocks
-npm i create-react-app
-npx create-react-app <app_name>
-npm start -> RUN REACT APP
-npm run build -> builds build APP
+npx hardhat block-number --network <network_name> <br />
+npx hardhat deploy <br />
+npx hardhat deploy --tags mocks <br />
+npm i create-react-app <br />
+npx create-react-app <app_name> <br />
+npm start -> RUN REACT APP <br />
+npm run build -> builds build APP <br />
 
-web inspect q steps:
+web inspect steps: <br />
 
-ethereum.enable()
-account = <metamask_address> w stringu
-hash = <secret_message_hash> w stringu
+ethereum.enable() <br />
+account = <metamask_address> use String <br />
+hash = <secret_message_hash> use String <br />
 
