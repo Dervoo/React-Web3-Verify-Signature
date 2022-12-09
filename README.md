@@ -13,6 +13,6 @@ web inspect steps: <br />
 ethereum.enable() <br />
 account = <metamask_address> use String <br />
 hash = <secret_message_hash> use String <br />
-ethereum.request((method: "personal_sign", params: [account, hash])) <br />
+ethereum.request({method: "personal_sign", params: [account, hash]}) <br />
 
 ![sigg](https://user-images.githubusercontent.com/30512638/192316212-11db269c-14ee-4f51-a9ef-6fd084971615.png)
